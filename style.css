@@ -1,0 +1,38 @@
+/* Yêu cầu 3: Vô hiệu hóa phần định kiểu hiện có cho thẻ li bằng cách dùng comment */
+/* 
+li {
+    margin: 10px;
+} 
+*/
+
+/* Yêu cầu 4: Định kiểu nav dùng inline-block và chiều rộng 80% */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Yêu cầu 5: Sử dụng bộ chọn con cháu để chỉnh hình ảnh trong nav rộng khoảng 10% */
+nav img {
+    width: 10%;
+}
+
+/* Yêu cầu 6 & 8: Tùy chỉnh lớp grid (lưới 2 cột, mỗi cột ~40%, canh chỉnh và khoảng cách) */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; /* Thử nghiệm giá trị này */
+    align-items: center;     /* Thử nghiệm giá trị này */
+    row-gap: 20px;           /* Thử nghiệm giá trị này */
+}
+
+/* Yêu cầu 7: Sử dụng bộ chọn con cháu để chỉnh hình ảnh trong lớp lưới có chiều rộng 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Yêu cầu 9: Tùy chỉnh lớp flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
